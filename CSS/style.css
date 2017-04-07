@@ -3,6 +3,9 @@ body {
 }
 
 /*-------------------------HEADER---------------------------*/
+nav {
+	display: none;
+}
 
 h1 {
 
@@ -27,3 +30,26 @@ input {
 	margin: 0 2% 3% 25%;
 }
 
+/*-------------------------------MAIN---------------------------------*/
+
+.piscineimg {
+	width: 60%;
+	margin-left: 2%;
+}
+
+section div h2 ,p {
+	margin: 2% 3% ;
+}
+
+/*-------------------------------FOOTER--------------------------------*/
+
+.azerti {
+	display: inline-block;
+	margin: 0 4% 0 0;
+
+}
+
+.azert {
+	display: inline-block;
+	margin: 0 2% 0 1%
+}
