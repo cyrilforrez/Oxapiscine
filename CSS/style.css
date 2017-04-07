@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+/*-------------------------HEADER---------------------------*/
+
+h1 {
+
+	display: inline-block;
+	margin:2% 20%;
+}
+
+.logo { display: none;
+}
+
+header {background-color: yellow;
+	background-image: url(../img/logo.png);
+}
+
+.search {
+	width: 30%;
+	margin: 0 0 3% 10%;
+}
+
+input {
+	width: 25%;
+	margin: 0 2% 3% 25%;
+}
+
