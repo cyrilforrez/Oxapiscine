@@ -127,3 +127,32 @@ section div h2 ,p {
 	position: relative;
 	left: 55%;
 }
+}
+
+/*-----------------------------------------Ecran desktop 980x1280--------------------------------------*/
+
+@media (min-width: 980px ){
+
+	section div {
+		display: inline-block;
+		width: 50%;
+		position: relative;
+		bottom: 25%;
+	}
+
+	.piscineimg {
+		margin-top: 5%;
+	}
+
+	.azert ul li {
+		display: inline-block;
+	}
+
+	.azerti ul li {
+		display: inline-block;
+	}
+	
+	footer {
+		width: 80%;
+	}
+}
