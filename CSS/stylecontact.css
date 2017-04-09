@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+}
+
+/*------------------------Ecran smartphone 360x640---------------------*/
+
+/*-------------------------HEADER---------------------------*/
+nav {
+	display: none;
+}
+
+h1 {
+
+	display: inline-block;
+	margin:2% 20%;
+}
+
+.logo { display: none;
+}
+
+header {
+	background-image: url(../img/logo.png);
+}
+
+.search {
+	width: 30%;
+	margin: 0 0 3% 10%;
+}
+
+.connect {
+	width: 25%;
+	margin: 0 2% 3% 25%;
+}
+
+/*-------------------------------Main--------------------------------------------*/
+
+main {
+	margin: 2% 2%;
+}
+
+.form {
+	display: inherit;
+	width: 80%;
+}
+
+.submit {
+	margin-top: 3%;
+}
+
+iframe {
+	width: 90%;
+	margin: 2% 2%;
+}
+
+/*-------------------------------FOOTER--------------------------------*/
+
+.azerti {
+	display: inline-block;
+	margin: 0 4% 0 0;
+
+}
+
+.azert {
+	display: inline-block;
+	margin: 0 2% 0 1%
+}
