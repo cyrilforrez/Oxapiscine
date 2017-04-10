@@ -2,6 +2,11 @@ body {
 	margin: 0;
 }
 
+footer {
+	width: 100%;
+	background-color: lightskyblue;
+}
+
 /*------------------------Ecran smartphone 360x640---------------------*/
 
 /*-------------------------HEADER---------------------------*/
@@ -119,19 +124,25 @@ section div h2 ,p {
 /*----------------------------------------------MAIN----------------------------------------------*/
 
 
-.piscineimg {
-	width: 40%;
+	.piscineimg {
+		width: 40%;
 }
 
-.azerti {
-	position: relative;
-	left: 55%;
-}
+/*------------------------------------------------FOOTER---------------------------------------------*/
+
+	.azerti {
+		position: relative;
+		left: 40%;
+	}
+
+
 }
 
 /*-----------------------------------------Ecran desktop 980x1280--------------------------------------*/
 
 @media (min-width: 980px ){
+
+/*--------------------------------------MAIN-----------------------------------------*/
 
 	section div {
 		display: inline-block;
@@ -144,6 +155,8 @@ section div h2 ,p {
 		margin-top: 5%;
 	}
 
+/*------------------------------------FOOTER----------------------------------------------------------*/
+
 	.azert ul li {
 		display: inline-block;
 	}
@@ -152,7 +165,12 @@ section div h2 ,p {
 		display: inline-block;
 	}
 	
+.azerti {
+		position: relative;
+		left: 40%;
+	}
+	
 	footer {
-		width: 80%;
+		width: 100%;
 	}
 }

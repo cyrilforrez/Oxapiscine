@@ -2,6 +2,11 @@ body {
 	margin: 0;
 }
 
+footer {
+	width: 100%;
+	background-color: lightskyblue;
+}
+
 /*------------------------Ecran smartphone 360x640---------------------*/
 
 /*-------------------------HEADER---------------------------*/
@@ -128,9 +133,10 @@ table, th, td {
 	/*-----------------------------------------------------FOOTER-------------------------------------*/
 
 	.azerti {
-    	position: relative;
-    	left: 55%;
-    }
+		position: relative;
+		left: 40%;
+	}
+
 }
 
 /*-----------------------------------------Ecran desktop 980x1280--------------------------------------*/
@@ -146,8 +152,11 @@ table, th, td {
 	.azerti ul li {
 		display: inline-block;
 	}
-	
-	footer {
-		width: 80%;
+
+	.azerti {
+		position: relative;
+		left: 40%;
 	}
+	
+
 }
