@@ -13,6 +13,12 @@ nav {
 	display: none;
 }
 
+i {
+	position: relative;
+	left: 5%;
+	margin-top: 3%;
+}
+
 h1 {
 
 	display: inline-block;
@@ -31,7 +37,7 @@ header {
 	margin: 0 0 3% 10%;
 }
 
-.connect {
+input {
 	width: 25%;
 	margin: 0 2% 3% 25%;
 }
