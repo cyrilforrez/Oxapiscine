@@ -7,6 +7,10 @@ footer {
 	background-color: lightskyblue;
 }
 
+td {
+	text-align: center;
+}
+
 /*------------------------Ecran smartphone 360x640---------------------*/
 
 /*-------------------------HEADER---------------------------*/
@@ -79,6 +83,10 @@ table, th, td {
 		margin: 10%;
 		width: 100px;
 		
+	}
+
+		i.fa-bars, i.fa {
+		display: none;
 	}
 
 	header { 
